@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ray Yu studies secure and efficient computing, homomorphic encryption, and systems acceleration at Peking University.">
+    <meta name="theme-color" content="#f7f7f4" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#151718" media="(prefers-color-scheme: dark)">
+    <meta property="og:title" content="Ray Yu | Academic Homepage">
+    <meta property="og:description" content="Secure and efficient computing, homomorphic encryption, and systems acceleration.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://jerryfishy.github.io/assets/avatar.jpg">
+    <meta property="og:url" content="https://jerryfishy.github.io/">
+    <link rel="canonical" href="https://jerryfishy.github.io/">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <title>Ray Yu | Academic Homepage</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="#top" aria-label="Ray Yu, home">Ray Yu</a>
+        <nav aria-label="Primary navigation">
+          <a href="#research">Research</a>
+          <a href="#work">Work</a>
+          <a href="#updates">Updates</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="intro" id="top" aria-labelledby="intro-title">
+        <div class="intro-photo">
+          <img src="assets/avatar.jpg" alt="Portrait of Ray Yu" width="640" height="640">
+        </div>
+
+        <div class="intro-copy">
+          <p class="affiliation">Peking University</p>
+          <h1 id="intro-title">Ray Yu</h1>
+          <p class="lead">
+            I study <strong>secure and efficient computing</strong>, with a focus on making
+            privacy-preserving computation practical through systems and hardware acceleration.
+          </p>
+          <p>
+            My current interests sit at the intersection of fully homomorphic encryption,
+            high-performance systems, and machine learning. I enjoy working across abstraction
+            layers, from cryptographic primitives and numerical methods to GPU kernels and
+            specialized architectures.
+          </p>
+          <div class="profile-links" aria-label="Profile links">
+            <a href="https://github.com/JerryFishY">GitHub</a>
+            <a href="#work">Selected work</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="research" aria-labelledby="research-title">
+        <div class="section-heading">
+          <p class="section-index">01</p>
+          <h2 id="research-title">Research</h2>
+        </div>
+
+        <div class="research-grid">
+          <article>
+            <h3>Privacy-preserving computing</h3>
+            <p>Efficient execution of homomorphic workloads, programmable bootstrapping, and scheme-aware system design.</p>
+          </article>
+          <article>
+            <h3>Systems acceleration</h3>
+            <p>GPU and specialized hardware techniques for compute-intensive cryptographic and numerical kernels.</p>
+          </article>
+          <article>
+            <h3>Machine learning systems</h3>
+            <p>Practical encrypted inference and cross-layer optimization spanning algorithms, software, and architecture.</p>
+          </article>
+        </div>
+
+        <div class="research-map" role="img" aria-label="Research pipeline from encrypted data through programmable computation to accelerated systems">
+          <div class="map-node">
+            <span class="map-label">01 / Protect</span>
+            <strong>Encrypted data</strong>
+            <small>CKKS · TFHE</small>
+          </div>
+          <span class="map-connector" aria-hidden="true"></span>
+          <div class="map-node map-node-center">
+            <span class="map-label">02 / Compute</span>
+            <strong>Programmable FHE</strong>
+            <small>LUT · PBS · conversion</small>
+          </div>
+          <span class="map-connector" aria-hidden="true"></span>
+          <div class="map-node">
+            <span class="map-label">03 / Scale</span>
+            <strong>Accelerated systems</strong>
+            <small>GPU · architecture</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="section-index">02</p>
+          <h2 id="work-title">Selected Work</h2>
+        </div>
+
+        <div class="work-list">
+          <article class="work-item">
+            <div class="work-visual visual-segments" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="work-copy">
+              <div class="work-meta"><span>FHE Systems</span><span>Ongoing · 2026</span></div>
+              <h3>Segmented LUT Evaluation for Homomorphic Workloads</h3>
+              <p>
+                A multi-stage encrypted lookup pipeline with interval indexing, linear entry lookup,
+                inverse LUT construction, and programmable bootstrapping across multiple rings.
+              </p>
+              <p class="work-tech">Go · Lattigo · CKKS · TFHE</p>
+            </div>
+          </article>
+
+          <article class="work-item">
+            <div class="work-visual visual-cnn" aria-hidden="true">
+              <span class="cnn-input"></span><span class="cnn-kernel"></span><span class="cnn-output"></span>
+            </div>
+            <div class="work-copy">
+              <div class="work-meta"><span>Encrypted ML</span><span>2025</span></div>
+              <h3>BatchPBS-CNN</h3>
+              <p>
+                Convolution and ReLU evaluation experiments for encrypted neural networks, built on
+                the CTL-HE codebase with a focused correctness and operation-counting workflow.
+              </p>
+              <div class="work-actions">
+                <a href="https://github.com/JerryFishY/BatchPBS-CNN">Code</a>
+              </div>
+              <p class="work-tech">C++ · CMake · Microsoft SEAL</p>
+            </div>
+          </article>
+
+          <article class="work-item">
+            <div class="work-visual visual-zkp" aria-hidden="true">
+              <span class="zkp-ring ring-a"></span><span class="zkp-ring ring-b"></span><span class="zkp-core">0/1</span>
+            </div>
+            <div class="work-copy">
+              <div class="work-meta"><span>Cryptographic Hardware</span><span>2023</span></div>
+              <h3>Zero-Knowledge Proof Accelerator</h3>
+              <p>
+                Hardware design experiments for accelerating zero-knowledge proof workloads,
+                exploring cryptographic arithmetic through a SystemVerilog implementation.
+              </p>
+              <div class="work-actions">
+                <a href="https://github.com/JerryFishY/zkp_accelarator">Code</a>
+              </div>
+              <p class="work-tech">SystemVerilog · Hardware acceleration</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="updates" aria-labelledby="updates-title">
+        <div class="section-heading">
+          <p class="section-index">03</p>
+          <h2 id="updates-title">Updates</h2>
+        </div>
+        <ol class="updates-list">
+          <li>
+            <time datetime="2026-03">Mar 2026</time>
+            <p>Extended the segmented LUT evaluator with dual-input batch evaluation and parameter validation.</p>
+          </li>
+          <li>
+            <time datetime="2025-11">Nov 2025</time>
+            <p>Completed convolution and ReLU test infrastructure for BatchPBS-CNN.</p>
+          </li>
+          <li>
+            <time datetime="2025-05">May 2025</time>
+            <p>Continued systems and accelerator work spanning CUDA, cryptography, and hardware design.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="section-index">04</p>
+          <h2 id="contact-title">Contact</h2>
+        </div>
+        <div class="contact-copy">
+          <p>I am interested in conversations around homomorphic encryption, secure systems, and hardware acceleration.</p>
+          <a class="contact-link" href="https://github.com/JerryFishY">Connect on GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Ray Yu</p>
+      <p>Last updated August 2026</p>
+    </footer>
+  </body>
+</html>

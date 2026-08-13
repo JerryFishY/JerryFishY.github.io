@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jerryfishy.github.io/sitemap.xml
