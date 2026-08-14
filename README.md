@@ -1,23 +1,14 @@
-# Ray Yu Academic Homepage
+# Ray Yu's Academic Homepage
 
-A lightweight academic homepage for GitHub Pages. The layout takes cues from compact, publication-led research pages while keeping the content easy to maintain as plain HTML.
+Personal academic homepage served at <https://jerryfishy.github.io/>.
 
-## Content to confirm
+The layout and stylesheet are adapted directly from [Jon Barron's academic website](https://github.com/jonbarron/jonbarron.github.io), as permitted by its README. The template source was synced from revision `25905bd773bd778585e66725780a7bc589269af1`.
 
-The first draft uses information that could be verified from the public `JerryFishY` GitHub profile and local repositories. Before treating the copy as final, confirm or replace:
+## Updating content
 
-- Full preferred English and Chinese names
-- Current degree, department, laboratory, and advisor
-- Public academic email
-- Google Scholar, ORCID, DBLP, and CV links
-- Publication list and BibTeX
-- Selected publication figures or project images
-- Awards, education, talks, and academic service
+- Edit biography, links, and project entries in `index.html`.
+- Replace `assets/avatar.jpg` with a square profile photo.
+- Add project images under `assets/projects/`.
+- Add verified email, CV, and Scholar links to the centered profile links when available.
 
-## Local preview
-
-Open `index.html` directly, or serve the directory with any static HTTP server.
-
-## Deployment
-
-This repository is designed to be published as `JerryFishY/JerryFishY.github.io`. GitHub Pages will serve the root `index.html` without a build step.
+Pushing to `main` deploys the site through GitHub Pages.
