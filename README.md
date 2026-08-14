@@ -2,13 +2,14 @@
 
 Personal academic homepage served at <https://jerryfishy.github.io/>.
 
-The layout and stylesheet are adapted directly from [Jon Barron's academic website](https://github.com/jonbarron/jonbarron.github.io), as permitted by its README. The template source was synced from revision `25905bd773bd778585e66725780a7bc589269af1`.
+The page structure and responsive stylesheet are adapted from [Zishen Wan's academic homepage](https://github.com/zishenwan/zishenwan.github.io), which is based on [Jon Barron's academic website](https://github.com/jonbarron/jonbarron.github.io). No analytics or personal content from either source is included.
 
 ## Updating content
 
-- Edit biography, links, and project entries in `index.html`.
-- Replace `assets/avatar.jpg` with a square profile photo.
+- Edit biography, research interests, news, project entries, and placeholders in `index.html`.
+- Replace `assets/avatar.jpg` with a profile photo.
 - Add project images under `assets/projects/`.
-- Add verified email, CV, and Scholar links to the centered profile links when available.
+- Replace or remove the gray italic placeholder entries under Awards, Education, Talks, Teaching, and Service.
+- Add verified email, CV, and Scholar links when available.
 
 Pushing to `main` deploys the site through GitHub Pages.

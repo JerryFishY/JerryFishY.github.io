@@ -12,156 +12,195 @@
   <meta property="og:image" content="https://jerryfishy.github.io/assets/avatar.jpg">
   <meta property="og:url" content="https://jerryfishy.github.io/">
   <link rel="canonical" href="https://jerryfishy.github.io/">
-  <link rel="shortcut icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
+
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px"><td style="padding:0px">
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr style="padding:0px">
-          <td style="padding:2.5%;width:63%;vertical-align:middle">
-            <p class="name" style="text-align:center;">Ray Yu</p>
-            <p>
-              I am a researcher at <a href="https://english.pku.edu.cn/">Peking University</a> interested in secure and efficient computing. My work focuses on making privacy-preserving computation practical through homomorphic encryption, high-performance systems, and hardware acceleration.
+  <table style="width:100%;max-width:950px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr id="top" style="padding:0px">
+      <td style="padding:0px">
+        <table class="intro-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td class="intro-bio" style="padding:2.5%;width:67%;vertical-align:middle">
+              <p class="intro-name" style="text-align:center">
+                <name>Ray Yu</name>
+              </p>
+              <p>
+                I am a researcher at <a href="https://english.pku.edu.cn/">Peking University</a> interested in secure and efficient computing. My work focuses on making privacy-preserving computation practical through homomorphic encryption, high-performance systems, and hardware acceleration.
+              </p>
+              <p>
+                I enjoy working across abstraction layers, from cryptographic primitives and numerical methods to GPU kernels and specialized architectures. I am also interested in efficient machine learning systems and encrypted inference.
+              </p>
+              <p style="text-align:center">
+                <a href="https://github.com/JerryFishY">GitHub</a> &nbsp;/&nbsp;
+                <a href="#projects">Projects</a> &nbsp;/&nbsp;
+                <a href="#awards">Awards</a>
+              </p>
+            </td>
+            <td class="intro-photo" style="padding:2.5%;width:40%;max-width:40%">
+              <a href="assets/avatar.jpg"><img style="width:100%;max-width:100%" alt="Profile photo of Ray Yu" src="assets/avatar.jpg" class="hoverZoomLink"></a>
+              <div class="contact-info">
+                <div>Peking University</div>
+                <div><a href="https://github.com/JerryFishY">github.com/JerryFishY</a></div>
+              </div>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table id="research" style="width:101%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research Interests</heading>
+              <p>
+                I work at the intersection of cryptographic computing, computer systems, and specialized hardware. My goal is to reduce the gap between the strong security guarantees of homomorphic encryption and the performance required by practical applications.
+              </p>
+              <ul>
+                <li><strong>Homomorphic Encryption:</strong> programmable bootstrapping, encrypted lookup tables, scheme conversion, and numerical function evaluation.</li>
+                <li><strong>Systems and Acceleration:</strong> GPU kernels, high-performance cryptographic software, and specialized architectures.</li>
+                <li><strong>Privacy-Preserving Machine Learning:</strong> efficient encrypted inference and cross-layer algorithm-system co-design.</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table id="news" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>News</heading>
+              <div style="height:260px;overflow-y:auto">
+                <p></p>
+                <ul>
+                  <li>[Mar. 2026] <b style="color:#1772d0;">[Research]</b> Extended the segmented LUT evaluator with dual-input batch evaluation and parameter validation.</li>
+                  <li>[Nov. 2025] <b style="color:#1772d0;">[Project]</b> Completed convolution and ReLU test infrastructure for BatchPBS-CNN.</li>
+                  <li>[Month Year] <b style="color:#FF2400;">[Award]</b> <em style="color:#777;">Add an award or honor announcement.</em></li>
+                  <li>[Month Year] <b style="color:#3EA055;">[Paper]</b> <em style="color:#777;">Add a publication or acceptance announcement.</em></li>
+                  <li>[Month Year] <b style="color:Orange;">[Talk]</b> <em style="color:#777;">Add an invited talk or presentation announcement.</em></li>
+                  <li>[Month Year] <b style="color:#808080;">[Service]</b> <em style="color:#777;">Add an academic service announcement.</em></li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table id="projects" class="publications-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td colspan="2" style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Selected Projects</heading>
+            </td>
+          </tr>
+
+          <tr bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="assets/projects/segmented-lut.svg" width="160" alt="Relative-error evaluation plot for segmented lookup tables">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Segmented LUT Evaluation for Homomorphic Workloads</papertitle>
+              <br><strong>Ray Yu</strong>
+              <br><em>Ongoing research project</em>, 2026
+              <br>Go / Lattigo / CKKS / TFHE
+              <p>A multi-stage encrypted lookup pipeline with interval indexing, linear entry lookup, inverse LUT construction, and programmable bootstrapping across multiple rings.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="assets/projects/batchpbs-cnn.png" width="160" alt="GitHub preview for BatchPBS-CNN">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://github.com/JerryFishY/BatchPBS-CNN"><papertitle>BatchPBS-CNN</papertitle></a>
+              <br><strong>Ray Yu</strong>
+              <br><em>Open-source project</em>, 2025
+              <br>[<a href="https://github.com/JerryFishY/BatchPBS-CNN">Code</a>]
+              <p>Convolution and ReLU evaluation experiments for encrypted neural networks, built on the CTL-HE codebase with a focused correctness and operation-counting workflow.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one" style="background-color:#c7d8e8;display:flex;align-items:center;justify-content:center;text-align:center;">
+                <strong>ZKP<br>Accelerator</strong>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://github.com/JerryFishY/zkp_accelarator"><papertitle>Zero-Knowledge Proof Accelerator</papertitle></a>
+              <br><strong>Ray Yu</strong>
+              <br><em>Open-source hardware project</em>, 2023
+              <br>[<a href="https://github.com/JerryFishY/zkp_accelarator">Code</a>]
+              <p>Hardware design experiments for accelerating zero-knowledge proof workloads, exploring cryptographic arithmetic through a SystemVerilog implementation.</p>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table id="awards" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr><td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Honors and Awards</heading>
+            <p></p>
+            <ul>
+              <li><em style="color:#777;">[Year] Award title, awarding organization. [link]</em></li>
+              <li><em style="color:#777;">[Year] Scholarship or fellowship title, awarding organization.</em></li>
+            </ul>
+          </td></tr>
+        </tbody></table>
+
+        <table id="education" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr><td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Education</heading>
+            <p></p>
+            <ul>
+              <li><em style="color:#777;">[Year-Present] Degree in Field, Peking University.</em></li>
+              <li><em style="color:#777;">[Year-Year] Previous degree in Field, University.</em></li>
+            </ul>
+          </td></tr>
+        </tbody></table>
+
+        <table id="talks" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr><td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Selected Talks</heading>
+            <p></p>
+            <ul>
+              <li><em style="color:#777;">[Month Year] "Talk title," venue, location. [slides]</em></li>
+            </ul>
+          </td></tr>
+        </tbody></table>
+
+        <table id="teaching" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr><td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Teaching</heading>
+            <p></p>
+            <ul>
+              <li><em style="color:#777;">[Term Year] Course role, Course title, Institution.</em></li>
+            </ul>
+          </td></tr>
+        </tbody></table>
+
+        <table id="service" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr><td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Academic Service</heading>
+            <p></p>
+            <ul>
+              <li><em style="color:#777;">[Year] Reviewer, committee member, organizer, or volunteer role, venue.</em></li>
+            </ul>
+          </td></tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr><td style="padding:0px">
+            <br>
+            <p style="text-align:right;font-size:small;">
+              Last update: August 2026
+              <br><br>
+              <a href="#top">Back to Top</a> |
+              Style adapted from <a href="https://zishenwan.github.io/">Zishen Wan</a>, based on <a href="https://jonbarron.info/">Jon Barron</a>'s template.
             </p>
-            <p>
-              I enjoy working across abstraction layers, from cryptographic primitives and numerical methods to GPU kernels and specialized architectures. I am also interested in efficient machine learning systems and encrypted inference.
-            </p>
-            <p style="text-align:center">
-              <a href="https://github.com/JerryFishY">Github</a> &nbsp;/&nbsp;
-              <a href="#research">Research</a> &nbsp;/&nbsp;
-              <a href="#projects">Projects</a> &nbsp;/&nbsp;
-              <a href="#awards">Awards</a>
-            </p>
-          </td>
-          <td style="padding:2.5%;width:37%;max-width:37%">
-            <a href="assets/avatar.jpg"><img style="width:100%;max-width:100%;object-fit:cover;border-radius:50%;" alt="Profile photo of Ray Yu" src="assets/avatar.jpg" class="hoverZoomLink"></a>
-          </td>
-        </tr>
-      </tbody></table>
-
-      <table id="research" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr><td style="padding:16px;width:100%;vertical-align:middle">
-          <h2>Research</h2>
-          <p>
-            I am interested in fully homomorphic encryption, privacy-preserving machine learning, and systems acceleration. My current work explores programmable bootstrapping, encrypted lookup and function evaluation, and cross-layer optimization for cryptographic workloads.
-          </p>
-        </td></tr>
-      </tbody></table>
-
-      <table id="projects" style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr><td colspan="2" style="padding:16px 16px 0px 16px;width:100%;vertical-align:middle"><h2>Selected Projects</h2></td></tr>
-
-        <tr bgcolor="#ffffd0">
-          <td style="padding:16px;width:20%;vertical-align:middle">
-            <div class="one"><img style="width:160px;height:160px;object-fit:cover;" src="assets/projects/segmented-lut.svg" alt="Relative-error evaluation plot for segmented lookup tables"></div>
-          </td>
-          <td style="padding:8px;width:80%;vertical-align:middle">
-            <span class="papertitle">Segmented LUT Evaluation for Homomorphic Workloads</span>
-            <br><strong>Ray Yu</strong>
-            <br><em>Ongoing research project</em>, 2026
-            <br>Go / Lattigo / CKKS / TFHE
-            <p>A multi-stage encrypted lookup pipeline with interval indexing, linear entry lookup, inverse LUT construction, and programmable bootstrapping across multiple rings.</p>
-          </td>
-        </tr>
-
-        <tr>
-          <td style="padding:16px;width:20%;vertical-align:middle">
-            <div class="one"><img style="width:160px;height:160px;object-fit:cover;" src="assets/projects/batchpbs-cnn.png" alt="GitHub preview for BatchPBS-CNN"></div>
-          </td>
-          <td style="padding:8px;width:80%;vertical-align:middle">
-            <a href="https://github.com/JerryFishY/BatchPBS-CNN"><span class="papertitle">BatchPBS-CNN</span></a>
-            <br><strong>Ray Yu</strong>
-            <br><em>Open-source project</em>, 2025
-            <br><a href="https://github.com/JerryFishY/BatchPBS-CNN">code</a>
-            <p>Convolution and ReLU evaluation experiments for encrypted neural networks, built on the CTL-HE codebase with a focused correctness and operation-counting workflow.</p>
-          </td>
-        </tr>
-
-        <tr>
-          <td style="padding:16px;width:20%;vertical-align:middle">
-            <div class="colored-box" style="background-color:#c7d8e8;box-sizing:border-box;width:160px;height:160px;text-align:center;vertical-align:middle;">
-              <h2 style="margin-top:32px;">ZKP<br>Accelerator</h2>
-            </div>
-          </td>
-          <td style="padding:8px;width:80%;vertical-align:middle">
-            <a href="https://github.com/JerryFishY/zkp_accelarator"><span class="papertitle">Zero-Knowledge Proof Accelerator</span></a>
-            <br><strong>Ray Yu</strong>
-            <br><em>Open-source hardware project</em>, 2023
-            <br><a href="https://github.com/JerryFishY/zkp_accelarator">code</a>
-            <p>Hardware design experiments for accelerating zero-knowledge proof workloads, exploring cryptographic arithmetic through a SystemVerilog implementation.</p>
-          </td>
-        </tr>
-      </tbody></table>
-
-      <table id="news" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr><td style="padding:16px;width:100%;vertical-align:middle">
-          <h2>News</h2>
-          <ul>
-            <li>[Month Year] <strong style="color:#b3261e;">[Award]</strong> <em style="color:#777;">Add an award or honor announcement.</em></li>
-            <li>[Month Year] <strong style="color:#27833b;">[Paper]</strong> <em style="color:#777;">Add a publication or acceptance announcement.</em></li>
-            <li>[Month Year] <strong style="color:#c45d00;">[Talk]</strong> <em style="color:#777;">Add an invited talk or presentation announcement.</em></li>
-          </ul>
-        </td></tr>
-      </tbody></table>
-
-      <table id="awards" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr><td style="padding:16px;width:100%;vertical-align:middle">
-          <h2>Honors and Awards</h2>
-          <ul>
-            <li><em style="color:#777;">[Year] Award title, awarding organization. [link]</em></li>
-            <li><em style="color:#777;">[Year] Scholarship or fellowship title, awarding organization.</em></li>
-          </ul>
-        </td></tr>
-      </tbody></table>
-
-      <table id="education" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr><td style="padding:16px;width:100%;vertical-align:middle">
-          <h2>Education</h2>
-          <ul>
-            <li><em style="color:#777;">[Year-Present] Degree in Field, Peking University.</em></li>
-            <li><em style="color:#777;">[Year-Year] Previous degree in Field, University.</em></li>
-          </ul>
-        </td></tr>
-      </tbody></table>
-
-      <table id="talks" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr><td style="padding:16px;width:100%;vertical-align:middle">
-          <h2>Selected Talks</h2>
-          <ul>
-            <li><em style="color:#777;">[Month Year] "Talk title," venue, location. [slides]</em></li>
-          </ul>
-        </td></tr>
-      </tbody></table>
-
-      <table id="teaching" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr><td style="padding:16px;width:100%;vertical-align:middle">
-          <h2>Teaching</h2>
-          <ul>
-            <li><em style="color:#777;">[Term Year] Course role, Course title, Institution.</em></li>
-          </ul>
-        </td></tr>
-      </tbody></table>
-
-      <table id="service" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr><td style="padding:16px;width:100%;vertical-align:middle">
-          <h2>Academic Service</h2>
-          <ul>
-            <li><em style="color:#777;">[Year] Reviewer, committee member, organizer, or volunteer role, venue.</em></li>
-          </ul>
-        </td></tr>
-      </tbody></table>
-
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr><td style="padding:0px">
-          <br>
-          <p style="text-align:right;font-size:small;">
-            Website template from <a href="https://jonbarron.info/">Jon Barron</a>'s <a href="https://github.com/jonbarron/jonbarron.github.io">source code</a>.
-          </p>
-        </td></tr>
-      </tbody></table>
-    </td></tr>
+          </td></tr>
+        </tbody></table>
+      </td>
+    </tr>
   </tbody></table>
 </body>
 </html>
