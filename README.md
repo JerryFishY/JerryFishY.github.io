@@ -7,7 +7,8 @@ The page structure and responsive stylesheet are adapted from [Zishen Wan's acad
 ## Updating content
 
 - Edit biography, research interests, news, project entries, and placeholders in `index.html`.
-- Replace `figure.jpg` with a profile photo.
+- Store the active profile image and archived portraits under `assets/profile/`.
+- Store site icons under `assets/icons/`; the root `favicon.ico` is retained for browser compatibility.
 - Add project images under `assets/projects/`.
 - Replace or remove the gray italic placeholder entries under Awards, Education, Talks, Teaching, and Service.
 - Add a verified CV link when available.
