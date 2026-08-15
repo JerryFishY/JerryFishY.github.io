@@ -1,4 +1,4 @@
-# Ray Yu's Academic Homepage
+# Jiangrui Yu's Academic Homepage
 
 Personal academic homepage served at <https://jerryfishy.github.io/>.
 
@@ -10,6 +10,6 @@ The page structure and responsive stylesheet are adapted from [Zishen Wan's acad
 - Replace `assets/avatar.jpg` with a profile photo.
 - Add project images under `assets/projects/`.
 - Replace or remove the gray italic placeholder entries under Awards, Education, Talks, Teaching, and Service.
-- Add verified email, CV, and Scholar links when available.
+- Add a verified CV link when available.
 
 Pushing to `main` deploys the site through GitHub Pages.
