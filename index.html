@@ -33,8 +33,8 @@
                 My work focuses on making privacy-preserving computation practical, particularly through fully homomorphic encryption. I explore cross-layer co-design spanning cryptographic algorithms, numerical methods, high-performance software, GPU kernels, and hardware architectures, with the goal of building efficient systems for encrypted machine learning and other data-intensive applications.
               </p>
               <p style="text-align:center">
-                <a href="mailto:jiangrui.yu@stu.pku.edu.cn">Email</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=-hdfMxUAAAAJ&amp;hl=en">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://github.com/JerryFishY/Clean-Resume">CV</a> &nbsp;/&nbsp;
                 <a href="https://github.com/JerryFishY">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://orcid.org/0009-0006-9105-4574">ORCID</a> &nbsp;/&nbsp;
                 <a href="https://www.linkedin.com/in/%E6%B1%9F%E7%91%9E-%E4%BF%9E-953315335/">LinkedIn</a> &nbsp;/&nbsp;
@@ -87,55 +87,69 @@
           </tr>
         </tbody></table>
 
-        <table id="projects" class="publications-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table id="publications" class="publications-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td colspan="2" style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Selected Projects</heading>
+              <heading>Publications</heading> &nbsp;&nbsp; (* Equal contribution)
             </td>
           </tr>
 
           <tr bgcolor="#ffffd0">
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src="assets/projects/segmented-lut.svg" width="160" alt="Relative-error evaluation plot for segmented lookup tables">
+              <div class="one" style="background-color:#dce8f2;display:flex;align-items:center;justify-content:center;text-align:center;">
+                <strong>BLB</strong>
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Segmented LUT Evaluation for Homomorphic Workloads</papertitle>
-              <br><strong>Jiangrui Yu</strong>
-              <br><em>Ongoing research project</em>, 2026
-              <br>Go / Lattigo / CKKS / TFHE
-              <p>A multi-stage encrypted lookup pipeline with interval indexing, linear entry lookup, inverse LUT construction, and programmable bootstrapping across multiple rings.</p>
+              <a href="https://www.usenix.org/conference/usenixsecurity25/presentation/xu-tianshi"><papertitle>Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC</papertitle></a>
+              <br>Tianshi Xu*, Wen-jie Lu*, <strong>Jiangrui Yu*</strong>, Yi Chen, Chenqi Lin, Runsheng Wang, Meng Li
+              <br><em>34th USENIX Security Symposium</em>, 2025
+              <br>[<a href="https://www.usenix.org/system/files/usenixsecurity25-xu-tianshi.pdf">Paper</a>] [<a href="https://arxiv.org/abs/2508.19525">arXiv</a>]
+              <p>A hybrid CKKS and MPC system for efficient private Transformer inference.</p>
             </td>
           </tr>
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src="assets/projects/batchpbs-cnn.png" width="160" alt="GitHub preview for BatchPBS-CNN">
+              <div class="one" style="background-color:#dcebdc;display:flex;align-items:center;justify-content:center;text-align:center;">
+                <strong>OptiPrime</strong>
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://github.com/JerryFishY/BatchPBS-CNN"><papertitle>BatchPBS-CNN</papertitle></a>
-              <br><strong>Jiangrui Yu</strong>
-              <br><em>Open-source project</em>, 2025
-              <br>[<a href="https://github.com/JerryFishY/BatchPBS-CNN">Code</a>]
-              <p>Convolution and ReLU evaluation experiments for encrypted neural networks, built on the CTL-HE codebase with a focused correctness and operation-counting workflow.</p>
+              <papertitle>OptiPrime: Efficient Private Inference at ImageNet Scale</papertitle>
+              <br><strong>Jiangrui Yu</strong>, Ye Yu, Si Chen, Wenxuan Zeng, Junfeng Fan, Runsheng Wang, Ru Huang, Meng Li
+              <br><em>arXiv</em>, 2025
+              <p>An efficient private-inference framework targeting ImageNet-scale workloads and encrypted convolution.</p>
             </td>
           </tr>
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one" style="background-color:#c7d8e8;display:flex;align-items:center;justify-content:center;text-align:center;">
-                <strong>ZKP<br>Accelerator</strong>
+              <div class="one" style="background-color:#eadff0;display:flex;align-items:center;justify-content:center;text-align:center;">
+                <strong>FlexHE</strong>
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://github.com/JerryFishY/zkp_accelarator"><papertitle>Zero-Knowledge Proof Accelerator</papertitle></a>
-              <br><strong>Jiangrui Yu</strong>
-              <br><em>Open-source hardware project</em>, 2023
-              <br>[<a href="https://github.com/JerryFishY/zkp_accelarator">Code</a>]
-              <p>Hardware design experiments for accelerating zero-knowledge proof workloads, exploring cryptographic arithmetic through a SystemVerilog implementation.</p>
+              <a href="https://doi.org/10.1145/3676536.3676739"><papertitle>FlexHE: A Flexible Kernel Generation Framework for Homomorphic Encryption-Based Private Inference</papertitle></a>
+              <br><strong>Jiangrui Yu</strong>, Wenxuan Zeng, Tianshi Xu, Renze Chen, Yun (Eric) Liang, Runsheng Wang, Ru Huang, Meng Li
+              <br><em>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</em>, 2024
+              <br>[<a href="https://doi.org/10.1145/3676536.3676739">Paper</a>]
+              <p>A flexible kernel-generation framework for automating and optimizing homomorphic-encryption-based private inference.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one" style="background-color:#f0e4c8;display:flex;align-items:center;justify-content:center;text-align:center;">
+                <strong>Trinity</strong>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://doi.org/10.1109/MICRO61859.2024.00033"><papertitle>Trinity: A General Purpose FHE Accelerator</papertitle></a>
+              <br>Xianglong Deng, Shengyu Fan, Zhicheng Hu, Zhuoyu Tian, Zihao Yang, <strong>Jiangrui Yu</strong>, Dingyuan Cao, Dan Meng, Rui Hou, Meng Li, Qian Lou, Mingzhe Zhang
+              <br><em>57th IEEE/ACM International Symposium on Microarchitecture (MICRO)</em>, 2024
+              <br>[<a href="https://doi.org/10.1109/MICRO61859.2024.00033">Paper</a>] [<a href="https://arxiv.org/abs/2410.13405">arXiv</a>]
+              <p>A unified accelerator architecture supporting CKKS, TFHE, and conversion between arithmetic and logic FHE schemes.</p>
             </td>
           </tr>
         </tbody></table>
@@ -145,8 +159,12 @@
             <heading>Honors and Awards</heading>
             <p></p>
             <ul>
-              <li><em style="color:#777;">[Year] Award title, awarding organization. [link]</em></li>
-              <li><em style="color:#777;">[Year] Scholarship or fellowship title, awarding organization.</em></li>
+              <li><strong>DACS Industry Contribution Award</strong>, Peking University, Dec. 2024.</li>
+              <li><strong>Outstanding Graduate</strong>, Peking University and Beijing, Jul. 2024.</li>
+              <li><strong>National Scholarship</strong> (top 0.2%), Sep. 2023.</li>
+              <li><strong>Canon Scholarship</strong>, Sep. 2022.</li>
+              <li><strong>Lihuirong Scholarship</strong>, Sep. 2021.</li>
+              <li><strong>Merit Student</strong>, 2021&ndash;2023.</li>
             </ul>
           </td></tr>
         </tbody></table>
@@ -156,8 +174,8 @@
             <heading>Education</heading>
             <p></p>
             <ul>
-              <li><em style="color:#777;">[Year-Present] Degree in Field, Peking University.</em></li>
-              <li><em style="color:#777;">[Year-Year] Previous degree in Field, University.</em></li>
+              <li><strong>Ph.D. in Integrated Circuit Science and Engineering</strong>, Peking University, Sep. 2024&ndash;Present.<br>School of Integrated Circuits and Institute for Artificial Intelligence; advised by Prof. Meng Li.</li>
+              <li><strong>B.S. in Applied Physics and dual degree in Computer Science and Technology</strong>, Peking University, Sep. 2020&ndash;Jun. 2024.<br>School of Electronic Engineering and Computer Science.</li>
             </ul>
           </td></tr>
         </tbody></table>
