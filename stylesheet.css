@@ -145,6 +145,24 @@ name {
   position: relative;
 }
 
+.publications-table .one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 130px;
+  margin: 0 auto;
+}
+
+.publications-table .one img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 170px;
+  max-height: 130px;
+  object-fit: contain;
+}
+
 .two {
   width: 160px;
   height: 160px;
@@ -342,5 +360,15 @@ span.highlight {
   .one img {
     max-width: 130px;
     height: auto;
+  }
+
+  .publications-table .one {
+    width: 130px;
+    height: 100px;
+  }
+
+  .publications-table .one img {
+    max-width: 130px;
+    max-height: 100px;
   }
 }
