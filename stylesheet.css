@@ -150,7 +150,7 @@ name {
   align-items: center;
   justify-content: center;
   width: 170px;
-  height: auto;
+  height: 160px;
   margin: 0 auto;
 }
 
@@ -363,7 +363,7 @@ span.highlight {
 
   .publications-table .one {
     width: 130px;
-    height: auto;
+    height: 130px;
   }
 
   .publications-table .one img {
