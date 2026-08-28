@@ -150,16 +150,15 @@ name {
   align-items: center;
   justify-content: center;
   width: 170px;
-  height: 130px;
+  height: 160px;
   margin: 0 auto;
 }
 
 .publications-table .one img {
   display: block;
-  width: auto;
+  width: 170px;
   height: auto;
   max-width: 170px;
-  max-height: 130px;
   object-fit: contain;
 }
 
@@ -364,11 +363,11 @@ span.highlight {
 
   .publications-table .one {
     width: 130px;
-    height: 100px;
+    height: 130px;
   }
 
   .publications-table .one img {
+    width: 130px;
     max-width: 130px;
-    max-height: 100px;
   }
 }
