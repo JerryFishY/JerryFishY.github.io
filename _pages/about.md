@@ -16,10 +16,10 @@ My work focuses on making privacy-preserving computation practical, particularly
 
 # Education
 
-- **Ph.D. Candidate in Integrated Circuit Science and Engineering**
+- **Ph.D. Candidate in Integrated Circuit Science and Engineering**<br>
   School of Integrated Circuits and Institute for Artificial Intelligence, Peking University, 2024-Present
-- **B.Sc. in Applied Physics**
-  School of Electronic Engineering and Computer Science, Peking University, 2020-2024
+- **B.Sc. in Applied Physics**<br>
+  School of Electronic Engineering and Computer Science, Peking University, 2020-2024<br>
   **Dual Degree: Computer Science and Technology**
 
 # Research Interests
@@ -95,7 +95,7 @@ I work at the intersection of cryptographic computing, computer systems, and spe
 
 # Internship Experience
 
-- **Intern**, Ant Group, Aug. 2025-Aug. 2026.
+- **Intern**, Ant Group, Aug. 2025-Aug. 2026.<br>
   **Mentors:** [Mingzhe Zhang](https://mingzhe-zhang.github.io/) and [Liang Kong](https://dl.acm.org/profile/99661638776).
 
 # Academic Service

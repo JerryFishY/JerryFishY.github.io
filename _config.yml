@@ -30,6 +30,14 @@ include:
 exclude:
   - docs
   - PROFILE_CONTENT.md
+  - index.html
+  - 404.html
+  - about.html
+  - about
+  - feed.xml
+  - sitemap.xml
+  - redirects.json
+  - assets/css/main.css
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
