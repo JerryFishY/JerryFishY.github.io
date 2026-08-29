@@ -157,6 +157,38 @@ h1:before, .anchor:before {
   margin-bottom: 1.15em;
 }
 
+.ccf-badge {
+  display: inline-block;
+  margin-left: 0.45em;
+  padding: 0.08em 0.38em;
+  border: 1px solid;
+  border-radius: 3px;
+  font-size: 0.72em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25;
+  vertical-align: 0.08em;
+  white-space: nowrap;
+}
+
+.ccf-a {
+  color: #952d28;
+  background: #faecea;
+  border-color: #e5b4b0;
+}
+
+.ccf-b {
+  color: #315c7b;
+  background: #edf4f8;
+  border-color: #b8cfdd;
+}
+
+.ccf-c {
+  color: #55633a;
+  background: #f1f4e9;
+  border-color: #cbd3b7;
+}
+
 .page-update {
   margin-top: 3em !important;
   padding-top: 1em;
