@@ -56,7 +56,7 @@ I work at the intersection of cryptographic computing, computer systems, and spe
   <strong>Jiangrui Yu</strong>, Ye Yu, Si Chen, Chenqi Lin, Wenxuan Zeng, Junfeng Fan, Mingyu Gao, Meng Li<br>
   <em>IEEE/ACM International Symposium on Microarchitecture (MICRO)</em><span class="ccf-rating ccf-a">CCF-A</span>, 2026</li>
 
-  <li><strong>PEFT: A Near-Memory Processing-Enabled Heterogeneous Accelerator for BatchPBS TFHE</strong><br>
+  <li><strong>(Invited) PEFT: A Near-Memory Processing-Enabled Heterogeneous Accelerator for BatchPBS TFHE</strong><br>
   <strong>Jiangrui Yu</strong>, Yi Chen, Meng Li<br>
   <em>IEEE International Symposium on Circuits and Systems (ISCAS)</em><span class="ccf-rating ccf-b">CCF-B</span>, 2026. [<a href="https://ieeexplore.ieee.org/document/11562611">Paper</a>]</li>
 
