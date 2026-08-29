@@ -1,17 +1,21 @@
 # Jiangrui Yu's Academic Homepage
 
-Personal academic homepage served at <https://jerryfishy.github.io/>.
+Source for [jerryfishy.github.io](https://jerryfishy.github.io/).
 
-The page structure and responsive stylesheet are adapted from [Zishen Wan's academic homepage](https://github.com/zishenwan/zishenwan.github.io), which is based on [Jon Barron's academic website](https://github.com/jonbarron/jonbarron.github.io). No analytics or personal content from either source is included.
+The site is built with Jekyll and GitHub Pages. Profile content lives in
+`_pages/about.md`; site metadata and sidebar links live in `_config.yml`.
 
-## Updating content
+## Local Preview
 
-- Edit biography, research interests, news, project entries, and placeholders in `index.html`.
-- Store the active profile image and archived portraits under `assets/profile/`.
-- Store site icons under `assets/icons/`; the root `favicon.ico` is retained for browser compatibility.
-- Store publication overview images under `assets/publications/`.
-- Add project images under `assets/projects/`.
-- Replace or remove the gray italic placeholder entries under Awards, Education, Talks, Teaching, and Service.
-- Add a verified CV link when available.
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-Pushing to `main` deploys the site through GitHub Pages.
+Then open `http://127.0.0.1:4000/`.
+
+## Credits
+
+The layout is adapted from [Wenxuan Zeng's homepage](https://zwxandy.github.io/),
+which uses [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io).
+The template is distributed under the MIT License; see `LICENSE`.

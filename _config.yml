@@ -1,0 +1,98 @@
+# Site settings
+title: "Jiangrui Yu"
+description: "Ph.D. Candidate at Peking University | Privacy-Preserving Computing and Systems"
+url: "https://jerryfishy.github.io"
+repository: "JerryFishY/JerryFishY.github.io"
+timezone: "Asia/Shanghai"
+
+# Site author
+author:
+  name: "Jiangrui Yu"
+  avatar: "/assets/profile/doggy.png"
+  bio: ""
+  location: "Beijing, China"
+  email: "jiangrui.yu@stu.pku.edu.cn"
+  email_secondary: "ray.jiangruiyu@gmail.com"
+  googlescholar: "https://scholar.google.com/citations?user=-hdfMxUAAAAJ&hl=en"
+  github: "JerryFishY"
+  linkedin_url: "https://www.linkedin.com/in/%E6%B1%9F%E7%91%9E-%E4%BF%9E-953315335/"
+  dblp: "https://dblp.uni-trier.de/pid/390/6782.html"
+  orcid: "https://orcid.org/0009-0006-9105-4574"
+
+# Search engine verification and analytics can be added later.
+google_analytics_id:
+google_site_verification:
+bing_site_verification:
+baidu_site_verification:
+
+include:
+  - _pages
+exclude:
+  - docs
+  - PROFILE_CONTENT.md
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - assets/js/_main.js
+  - assets/js/plugins
+  - node_modules
+  - vendor
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

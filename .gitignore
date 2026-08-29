@@ -1,1 +1,5 @@
 PROFILE_CONTENT.md
+_site/
+.bundle/
+vendor/
+.DS_Store
