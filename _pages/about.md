@@ -50,23 +50,23 @@ I work at the intersection of cryptographic computing, computer systems, and spe
 <ul class="publication-list">
   <li id="rosetta"><strong>ROSETTA: Efficient and Accurate Privacy-Preserving LLM Decoding via Hybrid CKKS/TFHE Evaluation</strong><br>
   <strong>Jiangrui Yu</strong>, Baosheng Zhang, Liang Kong, Lin Ding, Yi Chen, Ye Yu, Mingzhe Zhang, Meng Li<br>
-  <em>ACM SIGSAC Conference on Computer and Communications Security (CCS)</em><span class="ccf-rating ccf-a">CCF-A</span>, 2026</li>
+  <em>ACM SIGSAC Conference on Computer and Communications Security (CCS)</em>, <span class="ccf-rating ccf-a">CCF-A</span>, 2026</li>
 
   <li id="optiprime"><strong>OptiPrime: Optimizing Private Inference through Protocol-Hardware Co-Design</strong><br>
   <strong>Jiangrui Yu</strong>, Ye Yu, Si Chen, Chenqi Lin, Wenxuan Zeng, Junfeng Fan, Mingyu Gao, Meng Li<br>
-  <em>IEEE/ACM International Symposium on Microarchitecture (MICRO)</em><span class="ccf-rating ccf-a">CCF-A</span>, 2026</li>
+  <em>IEEE/ACM International Symposium on Microarchitecture (MICRO)</em>, <span class="ccf-rating ccf-a">CCF-A</span>, 2026</li>
 
   <li><strong>(Invited) PEFT: A Near-Memory Processing-Enabled Heterogeneous Accelerator for BatchPBS TFHE</strong><br>
   <strong>Jiangrui Yu</strong>, Yi Chen, Meng Li<br>
-  <em>IEEE International Symposium on Circuits and Systems (ISCAS)</em><span class="ccf-rating ccf-b">CCF-B</span>, 2026. [<a href="https://ieeexplore.ieee.org/document/11562611">Paper</a>]</li>
+  <em>IEEE International Symposium on Circuits and Systems (ISCAS)</em>, <span class="ccf-rating ccf-b">CCF-B</span>, 2026. [<a href="https://ieeexplore.ieee.org/document/11562611">Paper</a>]</li>
 
   <li><strong>Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC</strong><br>
   Tianshi Xu*, Wen-jie Lu*, <strong>Jiangrui Yu*</strong>, Yi Chen, Chenqi Lin, Runsheng Wang, Meng Li<br>
-  <em>34th USENIX Security Symposium</em><span class="ccf-rating ccf-a">CCF-A</span>, 2025. [<a href="https://www.usenix.org/system/files/usenixsecurity25-xu-tianshi.pdf">Paper</a>] [<a href="https://arxiv.org/abs/2508.19525">arXiv</a>]</li>
+  <em>34th USENIX Security Symposium</em>, <span class="ccf-rating ccf-a">CCF-A</span>, 2025. [<a href="https://www.usenix.org/system/files/usenixsecurity25-xu-tianshi.pdf">Paper</a>] [<a href="https://arxiv.org/abs/2508.19525">arXiv</a>]</li>
 
   <li><strong>FlexHE: A Flexible Kernel Generation Framework for Homomorphic Encryption-Based Private Inference</strong><br>
   <strong>Jiangrui Yu</strong>, Wenxuan Zeng, Tianshi Xu, Renze Chen, Yun (Eric) Liang, Runsheng Wang, Ru Huang, Meng Li<br>
-  <em>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</em><span class="ccf-rating ccf-b">CCF-B</span>, 2024. [<a href="https://doi.org/10.1145/3676536.3676739">Paper</a>]</li>
+  <em>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</em>, <span class="ccf-rating ccf-b">CCF-B</span>, 2024. [<a href="https://doi.org/10.1145/3676536.3676739">Paper</a>]</li>
 </ul>
 
 ## Co-Authored Papers
@@ -74,11 +74,11 @@ I work at the intersection of cryptographic computing, computer systems, and spe
 <ul class="publication-list">
   <li id="fenix"><strong>(Invited) FENIX: Flexible and Efficient Hybrid HE/MPC Acceleration with Near-Memory Processing</strong><br>
   Tengyu Zhang, Chenqi Lin, <strong>Jiangrui Yu</strong>, Yi Chen, Shuwen Deng, Meng Li<br>
-  <em>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</em><span class="ccf-rating ccf-b">CCF-B</span>, 2025. [<a href="https://doi.org/10.1109/ICCAD66269.2025.11240701">Paper</a>]</li>
+  <em>IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</em>, <span class="ccf-rating ccf-b">CCF-B</span>, 2025. [<a href="https://doi.org/10.1109/ICCAD66269.2025.11240701">Paper</a>]</li>
 
   <li><strong>Trinity: A General Purpose FHE Accelerator</strong><br>
   Xianglong Deng, Shengyu Fan, Zhicheng Hu, Zhuoyu Tian, Zihao Yang, <strong>Jiangrui Yu</strong>, Dingyuan Cao, Dan Meng, Rui Hou, Meng Li, Qian Lou, Mingzhe Zhang<br>
-  <em>57th IEEE/ACM International Symposium on Microarchitecture (MICRO)</em><span class="ccf-rating ccf-a">CCF-A</span>, 2024. [<a href="https://doi.org/10.1109/MICRO61859.2024.00033">Paper</a>] [<a href="https://arxiv.org/abs/2410.13405">arXiv</a>]</li>
+  <em>57th IEEE/ACM International Symposium on Microarchitecture (MICRO)</em>, <span class="ccf-rating ccf-a">CCF-A</span>, 2024. [<a href="https://doi.org/10.1109/MICRO61859.2024.00033">Paper</a>] [<a href="https://arxiv.org/abs/2410.13405">arXiv</a>]</li>
 </ul>
 
 <small>* Equal contribution.</small>
