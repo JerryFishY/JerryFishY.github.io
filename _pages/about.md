@@ -10,9 +10,7 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-I am a Ph.D. candidate jointly affiliated with the [School of Integrated Circuits](https://ic.pku.edu.cn/) and the [Institute for Artificial Intelligence](https://www.ai.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/), advised by [Prof. Meng Li](https://mengli.me/). My research lies at the intersection of cryptography, computer systems, and specialized hardware, with a focus on efficient and secure computing.
-
-My work focuses on making privacy-preserving computation practical, particularly through fully homomorphic encryption. I explore cross-layer co-design spanning cryptographic algorithms, numerical methods, high-performance software, GPU kernels, and hardware architectures, with the goal of building efficient systems for encrypted machine learning and other data-intensive applications.
+I am currently a Ph.D. candidate jointly affiliated with the [School of Integrated Circuits](https://ic.pku.edu.cn/) and the [Institute for Artificial Intelligence](https://www.ai.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/), advised by [Prof. Meng Li](https://mengli.me/). My research interests lie in privacy-preserving computing, homomorphic encryption, and algorithm-system-hardware co-design for efficient and secure computing.
 
 # Education
 
@@ -21,14 +19,6 @@ My work focuses on making privacy-preserving computation practical, particularly
 - **B.Sc. in Applied Physics**<br>
   School of Electronic Engineering and Computer Science, Peking University, 2020-2024<br>
   **Dual Degree: Computer Science and Technology**
-
-# Research Interests
-
-I work at the intersection of cryptographic computing, computer systems, and specialized hardware. My goal is to reduce the gap between the strong security guarantees of homomorphic encryption and the performance required by practical applications.
-
-- **Homomorphic Encryption:** programmable bootstrapping, encrypted lookup tables, scheme conversion, and numerical function evaluation.
-- **Systems and Acceleration:** GPU kernels, high-performance cryptographic software, and specialized architectures.
-- **Privacy-Preserving Machine Learning:** efficient encrypted inference and cross-layer algorithm-system co-design.
 
 # News
 
