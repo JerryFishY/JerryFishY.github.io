@@ -101,7 +101,7 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 # Internship Experience
 
 - **Intern**, Ant Group, Aug. 2025-Aug. 2026.<br>
-  **Topic:** Compiler and cryptographic protocol design for hybrid CKKS/TFHE acceleration.<br>
+  **Topic:** Compiler and cryptographic protocol design for private AI acceleration.<br>
   **Mentors:** [Mingzhe Zhang](https://mingzhe-zhang.github.io/) and [Liang Kong](https://dl.acm.org/profile/99661638776).
 
 # Academic Service
