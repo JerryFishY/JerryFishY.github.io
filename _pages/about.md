@@ -75,30 +75,28 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 
 # Honors and Awards
 
-### Research and Competition Awards
+### External Honors and Awards
 
 - [**Noteworthy Reviewer Recognition**](https://secartifacts.github.io/usenixsec2026/awards#-noteworthy-reviewer-recognition) (33/222 AEC members), USENIX Security 2026, Jul. 2026.
 - [**1st Place, DAC System Design Contest**](https://ic.pku.edu.cn/xwdt/c28ddb3c31654bcdbb1560590a26dfbc.htm), DAC 2025, Jun. 2025.
 - [**Bronze Medal, 35th Chinese Physics Olympiad (CPhO)**](https://cpho.pku.edu.cn/info/1044/1166.htm), 2018.
 
-### University Honors
-
-- **Outstanding Research Award**, Peking University, 2025.
-- **DACS Industry Contribution Award**, Peking University, Dec. 2024.
-- **Outstanding Graduate**, Peking University and Beijing, Jul. 2024.
-- **Merit Student**, 2021-2023.
-
-### Scholarships
+### University Honors and Awards
 
 - **Doctoral Dean's Scholarship (Excellence Award)**, Institute for Artificial Intelligence, Peking University, 2025.
+- **Outstanding Research Award**, Peking University, 2025.
 - **Huawei Scholarship (Third Prize)**, 2024-2025.
+- **DACS Industry Contribution Award**, Peking University, Dec. 2024.
+- **Outstanding Graduate**, Peking University and Beijing, Jul. 2024.
 - <strong class="scholarship-highlight">National Scholarship</strong> (top 0.2%), Sep. 2023.
+- **Merit Student**, 2021-2023.
 - **Canon Scholarship**, Sep. 2022.
 - **Lihuirong Scholarship**, Sep. 2021.
 
 # Internship Experience
 
 - **Intern**, Ant Group, Aug. 2025-Aug. 2026.<br>
+  **Topic:** Compiler and cryptographic protocol design for hybrid CKKS/TFHE acceleration.<br>
   **Mentors:** [Mingzhe Zhang](https://mingzhe-zhang.github.io/) and [Liang Kong](https://dl.acm.org/profile/99661638776).
 
 # Academic Service
