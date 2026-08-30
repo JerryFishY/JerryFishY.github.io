@@ -89,7 +89,7 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 
 - **Doctoral Dean's Scholarship (Excellence Award)**, Institute for Artificial Intelligence, Peking University, 2025.
 - **Outstanding Research Award**, Peking University, 2025.
-- **Huawei Scholarship (Third Prize)**, 2024-2025.
+- **Huawei Scholarship (Third Prize)**, 2025.
 - **DACS Industry Contribution Award**, Peking University, 2024.
 - **Outstanding Graduate**, Peking University and Beijing, 2024.
 - <strong class="scholarship-highlight">National Scholarship</strong> (top 0.2%), 2023.
