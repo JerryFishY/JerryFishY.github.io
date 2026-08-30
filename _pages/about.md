@@ -44,7 +44,8 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 
   <li id="optiprime"><strong>OptiPrime: Optimizing Private Inference through Protocol-Hardware Co-Design</strong><br>
   <strong>Jiangrui Yu</strong>, Ye Yu, Si Chen, Chenqi Lin, Wenxuan Zeng, Junfeng Fan, Mingyu Gao, Meng Li<br>
-  <em>IEEE/ACM International Symposium on Microarchitecture (MICRO)</em>, <span class="ccf-rating ccf-a">CCF-A</span>, 2026</li>
+  <em>IEEE/ACM International Symposium on Microarchitecture (MICRO)</em>, <span class="ccf-rating ccf-a">CCF-A</span>, 2026<br>
+  <strong>Distinguished Paper Award</strong> @ UTI 2026</li>
 
   <li><strong>(Invited) PEFT: A Near-Memory Processing-Enabled Heterogeneous Accelerator for BatchPBS TFHE</strong><br>
   <strong>Jiangrui Yu</strong>, Yi Chen, Meng Li<br>
@@ -77,7 +78,6 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 
 ### Research and Competition Awards
 
-- **Distinguished Paper Award**, [*OptiPrime*](#optiprime) @ UTI 2026.
 - [**Noteworthy Reviewer Recognition**](https://secartifacts.github.io/usenixsec2026/awards#-noteworthy-reviewer-recognition) (33/222 AEC members), USENIX Security 2026.
 - [**1st Place, DAC System Design Contest**](https://ic.pku.edu.cn/xwdt/c28ddb3c31654bcdbb1560590a26dfbc.htm), DAC 2025.
 - [**Bronze Medal, 35th Chinese Physics Olympiad (CPhO)**](https://cpho.pku.edu.cn/info/1044/1166.htm), 2018 (as a second-year high school student).
