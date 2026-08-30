@@ -74,6 +74,10 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 
 <small>* Equal contribution.</small>
 
+# Patents
+
+- [**An Efficient Homomorphic Computation Method for Privacy-Preserving Inference in Neural Networks**](https://patents.google.com/patent/CN121418079A/en) (CN121418079A). Meng Li, **Jiangrui Yu**, Ye Yu, Wenxuan Zeng, Runsheng Wang. China Patent Application, 2026.
+
 # Honors and Awards
 
 ### Research and Competition Awards
