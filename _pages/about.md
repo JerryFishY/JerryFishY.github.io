@@ -84,7 +84,6 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 
 - [**Noteworthy Reviewer Recognition**](https://secartifacts.github.io/usenixsec2026/awards#-noteworthy-reviewer-recognition) (33/222 AEC members), USENIX Security 2026.
 - [**1st Place, DAC System Design Contest**](https://ic.pku.edu.cn/xwdt/c28ddb3c31654bcdbb1560590a26dfbc.htm), DAC 2025.
-- [**Bronze Medal, 35th Chinese Physics Olympiad (CPhO)**](https://cpho.pku.edu.cn/info/1044/1166.htm), 2018 (as a second-year high school student).
 
 ### University Honors
 
@@ -97,6 +96,7 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 - **Merit Student**, 2021-2023.
 - **Canon Scholarship**, 2022.
 - **Lihuirong Scholarship**, 2021.
+- [**Bronze Medal, 35th Chinese Physics Olympiad (CPhO)**](https://cpho.pku.edu.cn/info/1044/1166.htm), 2018 (as a second-year high school student).
 
 # Internship Experience
 
