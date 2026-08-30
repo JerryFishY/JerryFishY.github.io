@@ -75,13 +75,13 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 
 # Honors and Awards
 
-### External Honors and Awards
+### Research and Competition Awards
 
 - [**Noteworthy Reviewer Recognition**](https://secartifacts.github.io/usenixsec2026/awards#-noteworthy-reviewer-recognition) (33/222 AEC members), USENIX Security 2026, Jul. 2026.
 - [**1st Place, DAC System Design Contest**](https://ic.pku.edu.cn/xwdt/c28ddb3c31654bcdbb1560590a26dfbc.htm), DAC 2025, Jun. 2025.
 - [**Bronze Medal, 35th Chinese Physics Olympiad (CPhO)**](https://cpho.pku.edu.cn/info/1044/1166.htm), 2018.
 
-### University Honors and Awards
+### University Honors
 
 - **Doctoral Dean's Scholarship (Excellence Award)**, Institute for Artificial Intelligence, Peking University, 2025.
 - **Outstanding Research Award**, Peking University, 2025.
