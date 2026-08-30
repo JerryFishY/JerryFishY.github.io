@@ -10,7 +10,7 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-I am currently a Ph.D. candidate jointly affiliated with the [School of Integrated Circuits](https://ic.pku.edu.cn/) and the [Institute for Artificial Intelligence](https://www.ai.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/), advised by [Prof. Meng Li](https://mengli.me/). My research interests lie in privacy-preserving computing, homomorphic encryption, and algorithm-system-hardware co-design for efficient and secure computing.
+I am currently a Ph.D. candidate jointly affiliated with the [School of Integrated Circuits](https://ic.pku.edu.cn/) and the [Institute for Artificial Intelligence](https://www.ai.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/), advised by [Prof. Meng Li](https://mengli.me/). My research interests include **Efficient and Secure AI**, **Software-Hardware Co-Design**, and **Cryptography**. I have published as a (co-)first author in top-tier computer architecture, systems, and security conferences, including **CCS, MICRO, and USENIX Security**.
 
 # Education
 
