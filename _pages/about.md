@@ -10,7 +10,7 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-I am currently a Ph.D. candidate jointly affiliated with the [School of Integrated Circuits](https://ic.pku.edu.cn/) and the [Institute for Artificial Intelligence](https://www.ai.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/), advised by [Prof. Meng Li](https://mengli.me/). My research interests include **Efficient and Secure AI**, **Software-Hardware Co-Design**, and **Cryptography**. I have published as a (co-)first author in top-tier computer architecture, systems, and security conferences, including **CCS, MICRO, and USENIX Security**.
+I am currently a Ph.D. candidate jointly affiliated with the [School of Integrated Circuits](https://ic.pku.edu.cn/) and the [Institute for Artificial Intelligence](https://www.ai.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/), advised by [Prof. Meng Li](https://mengli.me/). My research interests include **Efficient and Secure AI**, **Software-Hardware Co-Design**, and **Cryptography**. I have published as a (co-)first author in top-tier computer architecture, systems, and security conferences, including **CCS, MICRO, USENIX Security, and ICCAD**.
 
 # Education
 
@@ -78,6 +78,7 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 ### Academic Awards
 
 - [**Noteworthy Reviewer Recognition**](https://secartifacts.github.io/usenixsec2026/awards#-noteworthy-reviewer-recognition) (33/222 AEC members), USENIX Security 2026, Jul. 2026.
+- [**1st Place, DAC System Design Contest**](https://ic.pku.edu.cn/xwdt/c28ddb3c31654bcdbb1560590a26dfbc.htm), DAC 2025, Jun. 2025.
 - **Outstanding Research Award**, Peking University, 2025.
 - **DACS Industry Contribution Award**, Peking University, Dec. 2024.
 - **Outstanding Graduate**, Peking University and Beijing, Jul. 2024.
