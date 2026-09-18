@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "Jiangrui Yu is a Ph.D. candidate at Peking University working on privacy-preserving computing, homomorphic encryption, and systems acceleration."
+excerpt: "Jiangrui Yu is a Ph.D. candidate at Peking University studying efficient and secure AI systems and exploring large-model inference infrastructure."
 author_profile: true
 redirect_from:
   - /about/
@@ -10,7 +10,7 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-I am currently a Ph.D. candidate jointly affiliated with the [School of Integrated Circuits](https://ic.pku.edu.cn/) and the [Institute for Artificial Intelligence](https://www.ai.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/), advised by [Prof. Meng Li](https://mengli.me/). My research interests include **Efficient and Secure AI**, **Software-Hardware Co-Design**, and **Cryptography**. I have published as a (co-)first author in top-tier computer architecture, systems, and security conferences, including **CCS, MICRO, USENIX Security, and ICCAD**.
+I am currently a Ph.D. candidate jointly affiliated with the [School of Integrated Circuits](https://ic.pku.edu.cn/) and the [Institute for Artificial Intelligence](https://www.ai.pku.edu.cn/) at [Peking University](https://english.pku.edu.cn/), advised by [Prof. Meng Li](https://mengli.me/). My research focuses on **efficient and secure AI systems**, spanning privacy-preserving inference, cryptographic protocols, and software-hardware co-design. More recently, I have begun exploring inference infrastructure for large language models (LLMs) and omni-modal models, with a broader interest in scalable systems for multimodal generation and post-training. I have published as a (co-)first author in computer architecture, systems, and security conferences, including **CCS, MICRO, USENIX Security, and ICCAD**.
 
 # Education
 
