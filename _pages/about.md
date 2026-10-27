@@ -23,6 +23,7 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 # News
 
 <ul class="news-list">
+  <li><span class="date">Oct. 2026</span> <strong class="tag tag-award">[Award]</strong> Selected for the 2026 <a href="https://rczx.cast.org.cn/sy/tzgg/art/2026/art_3c9cc64b5a914fa2b0e43e113ce66c39.html"><strong>CAST Young Scientific Talent Cultivation Program for PhD Students</strong></a> (中国科协青年科技人才培育工程博士生专项计划), as one of two recipients from Peking University's School of Integrated Circuits this year.</li>
   <li><span class="date">Jul. 2026</span> <strong class="tag tag-paper">[Paper]</strong> Our paper <a href="#rosetta"><strong>ROSETTA</strong></a> was accepted to ACM CCS 2026.</li>
   <li><span class="date">Jul. 2026</span> <strong class="tag tag-paper">[Paper]</strong> Our paper <a href="#optiprime"><strong>OptiPrime</strong></a> was accepted to IEEE/ACM MICRO 2026.</li>
   <li><span class="date">Jul. 2026</span> <strong class="tag tag-award">[Award]</strong> Received the <a href="https://secartifacts.github.io/usenixsec2026/awards#-noteworthy-reviewer-recognition"><strong>Noteworthy Reviewer Recognition</strong></a> from the USENIX Security 2026 Artifact Evaluation Committee (33/222 AEC members).</li>
@@ -80,8 +81,9 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 
 # Honors and Awards
 
-### Research and Competition Awards
+### Research and Competition Honors
 
+- Selected for the [**CAST Young Scientific Talent Cultivation Program for PhD Students**](https://rczx.cast.org.cn/sy/tzgg/art/2026/art_3c9cc64b5a914fa2b0e43e113ce66c39.html) (中国科协青年科技人才培育工程博士生专项计划), 2026 (one of two recipients from Peking University's School of Integrated Circuits).
 - [**Noteworthy Reviewer Recognition**](https://secartifacts.github.io/usenixsec2026/awards#-noteworthy-reviewer-recognition) (33/222 AEC members), USENIX Security 2026.
 - [**1st Place, DAC System Design Contest**](https://ic.pku.edu.cn/xwdt/c28ddb3c31654bcdbb1560590a26dfbc.htm), DAC 2025.
 
@@ -108,4 +110,4 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 
 - **Artifact Evaluation Committee Member (Full-term)**, [35th USENIX Security Symposium](https://secartifacts.github.io/usenixsec2026/organizers), 2026.
 
-<p class="page-update">Last updated: August 2026</p>
+<p class="page-update">Last updated: October 2026</p>
