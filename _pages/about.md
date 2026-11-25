@@ -45,7 +45,7 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 
   <li id="optiprime"><strong>OptiPrime: Optimizing Private Inference through Protocol-Hardware Co-Design</strong><br>
   <strong>Jiangrui Yu</strong>, Ye Yu, Si Chen, Chenqi Lin, Wenxuan Zeng, Junfeng Fan, Mingyu Gao, Meng Li<br>
-  <em>IEEE/ACM International Symposium on Microarchitecture (MICRO)</em>, <span class="ccf-rating ccf-a">CCF-A</span>, 2026<br>
+  <em>IEEE/ACM International Symposium on Microarchitecture (MICRO)</em>, <span class="ccf-rating ccf-a">CCF-A</span>, 2026. [<a href="https://jerryfishy.github.io/OptiPrime/">Project Page</a>] [<a href="https://github.com/JerryFishY/OptiPrime">Code</a>]<br>
   <strong>Distinguished Paper Award</strong> @ UTI 2026</li>
 
   <li><strong>(Invited) PEFT: A Near-Memory Processing-Enabled Heterogeneous Accelerator for BatchPBS TFHE</strong><br>
