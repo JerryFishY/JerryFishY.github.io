@@ -23,6 +23,7 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 # News
 
 <ul class="news-list">
+  <li><span class="date">Nov. 2026</span> <strong class="tag tag-project">[Code]</strong> We released the CPU and GPU implementations of <a href="https://jerryfishy.github.io/OptiPrime/"><strong>OptiPrime</strong></a>’s convolution operator, OptiEncode, in <a href="https://github.com/PKU-SEC-Lab/SEC-PPDL-LIB/tree/v1.0/Experiments/OptiPrime">SEC-PPDL</a>.</li>
   <li><span class="date">Oct. 2026</span> <strong class="tag tag-award">[Award]</strong> Selected for the 2026 <a href="https://rczx.cast.org.cn/sy/tzgg/art/2026/art_3c9cc64b5a914fa2b0e43e113ce66c39.html"><strong>CAST Young Scientific Talent Cultivation Program for PhD Students</strong></a> (中国科协青年科技人才培育工程博士生专项计划), as one of two recipients from Peking University's School of Integrated Circuits this year.</li>
   <li><span class="date">Jul. 2026</span> <strong class="tag tag-paper">[Paper]</strong> Our paper <a href="#rosetta"><strong>ROSETTA</strong></a> was accepted to ACM CCS 2026.</li>
   <li><span class="date">Jul. 2026</span> <strong class="tag tag-paper">[Paper]</strong> Our paper <a href="#optiprime"><strong>OptiPrime</strong></a> was accepted to IEEE/ACM MICRO 2026.</li>
@@ -110,4 +111,4 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 
 - **Artifact Evaluation Committee Member (Full-term)**, [35th USENIX Security Symposium](https://secartifacts.github.io/usenixsec2026/organizers), 2026.
 
-<p class="page-update">Last updated: October 2026</p>
+<p class="page-update">Last updated: November 2026</p>
