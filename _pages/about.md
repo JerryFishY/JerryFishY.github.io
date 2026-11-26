@@ -109,6 +109,7 @@ I am currently a Ph.D. candidate jointly affiliated with the [School of Integrat
 
 # Academic Service
 
+- **Reviewer**, [IEEE Computer Architecture Letters (CAL)](https://www.computer.org/csdl/journal/ca).
 - **Artifact Evaluation Committee Member (Full-term)**, [35th USENIX Security Symposium](https://secartifacts.github.io/usenixsec2026/organizers), 2026.
 
 <p class="page-update">Last updated: November 2026</p>
